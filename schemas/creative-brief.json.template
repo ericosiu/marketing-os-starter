@@ -1,0 +1,82 @@
+{
+  "_template_version": "1.0",
+  "_description": "Creative brief produced by MOS-Strategist. Consumed by MOS-Copywriter. Fill in all fields before handing off.",
+  "_instructions": "Replace all [FILL IN] values. Remove fields not applicable. Save as creative-brief-[CAMPAIGN-NAME]-[DATE].json",
+
+  "brief_id": "BRIEF-[YYYYMMDD]-[001]",
+  "status": "draft",
+  "created_by": "MOS-Strategist",
+  "created_date": "[YYYY-MM-DD]",
+  "approved_by": null,
+  "approved_date": null,
+
+  "campaign_context": {
+    "name": "[FILL IN: Campaign name for reference]",
+    "goal": "[FILL IN: Specific, measurable goal — not 'awareness'. E.g., '50 trial signups in 30 days']",
+    "deadline": "[FILL IN: YYYY-MM-DD]",
+    "budget": "[FILL IN: $X total or $X/month]",
+    "channels": ["[FILL IN: e.g., linkedin, email, paid_search, organic_social]"],
+    "campaign_duration": "[FILL IN: e.g., '30 days', 'always-on']"
+  },
+
+  "audience": {
+    "primary_segment": "[FILL IN: Specific audience — not 'everyone'. E.g., 'Marketing Directors at B2B SaaS companies, $10M-$50M ARR']",
+    "audience_profile_id": "[FILL IN: Reference to audience-profile.json if exists, or null]",
+    "pain_point": "[FILL IN: The #1 problem this audience has that we're addressing]",
+    "current_belief": "[FILL IN: What they believe right now that we want to change]",
+    "desired_belief": "[FILL IN: What we want them to believe after seeing this campaign]",
+    "objections": [
+      "[FILL IN: Top objection #1 — why they might not respond]",
+      "[FILL IN: Top objection #2]",
+      "[FILL IN: Top objection #3]"
+    ],
+    "voice_of_customer": [
+      "[FILL IN: Actual phrase from research/interviews — use their exact words]",
+      "[FILL IN: Another actual phrase]"
+    ]
+  },
+
+  "messaging": {
+    "core_promise": "[FILL IN: The ONE thing we want them to remember. Single sentence.]",
+    "key_differentiator": "[FILL IN: Why us and not the alternative. Be specific.]",
+    "proof_points": [
+      "[FILL IN: Specific stat, result, or client name — never fabricate. E.g., '47% increase in pipeline for ClientX in 90 days']",
+      "[FILL IN: Another proof point]",
+      "[FILL IN: Another proof point]"
+    ],
+    "tone": "[FILL IN: e.g., 'confident and direct, not salesy' — reference voice.md for full guidance]"
+  },
+
+  "deliverables": [
+    {
+      "type": "[FILL IN: linkedin_post | email_sequence | landing_page | ad_copy | blog_post | social_post]",
+      "quantity": 1,
+      "format": "[FILL IN: Specific format. E.g., '150-word caption, no hashtags, single image' or '5-email sequence, 200 words each']",
+      "cta": "[FILL IN: Specific CTA text. E.g., 'Book a Free 30-Minute Audit']",
+      "destination_url": "[FILL IN: Where the CTA links to]",
+      "notes": "[FILL IN: Any special instructions for this deliverable, or null]"
+    }
+  ],
+
+  "constraints": {
+    "never_mention": [
+      "[FILL IN: Things to avoid — competitors you don't want called out, sensitive topics, claims you can't back up]"
+    ],
+    "required_elements": [
+      "[FILL IN: Must-include elements — legal disclaimers, specific URLs, required taglines, or null]"
+    ],
+    "brand_voice_file": "brands/your-agency/voice.md",
+    "client_file": "[FILL IN: path to CLIENT.md if this is for a client, or null]"
+  },
+
+  "measurement": {
+    "primary_kpi": "[FILL IN: The one metric that defines success for this campaign]",
+    "primary_kpi_target": "[FILL IN: The specific number we're aiming for]",
+    "secondary_kpis": [
+      "[FILL IN: Supporting metric to track]",
+      "[FILL IN: Another supporting metric]"
+    ],
+    "reporting_cadence": "[FILL IN: Weekly | Monthly | Campaign end]",
+    "tracking_notes": "[FILL IN: Any notes on how to track — UTM parameters, attribution model, etc.]"
+  }
+}

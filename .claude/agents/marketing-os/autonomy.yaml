@@ -1,0 +1,55 @@
+# Marketing OS Agent Team - Autonomy Configuration
+# Created: [FILL IN: your setup date]
+
+agent: marketing-os
+current_level: C  # C = Draft + Wait (requires explicit approval)
+
+# Decision-specific autonomy levels
+decision_levels:
+  route_to_researcher: C
+  route_to_strategist: C
+  route_to_copywriter: C
+  produce_audience_profile: C
+  produce_research_report: C
+  produce_creative_brief: C
+  produce_campaign_plan: C
+  produce_copy: C
+  allocate_budget: C          # ALWAYS C - never autonomous
+  publish_or_send: C          # ALWAYS C - never autonomous
+
+# Graduation tracking
+metrics:
+  total_recommendations: 0
+  approved: 0
+  skipped: 0
+  rejected: 0
+  last_rejection_date: null
+  tracking_started: null  # Fill in your start date
+
+# Graduation rules
+graduation_rules:
+  c_to_b:
+    min_recommendations: 20
+    min_approval_rate: 85
+    max_rejections_last_10: 0
+    min_days_tracking: 14
+
+  b_to_a:
+    min_days_on_b: 28
+    min_approval_rate: 95
+    max_manual_interventions_30d: 0
+
+# History
+level_changes:
+  - date: null  # Fill in your start date
+    from: null
+    to: C
+    reason: "Initial deployment"
+
+# Instructions for updating this file:
+# After each agent recommendation:
+#   - Increment total_recommendations
+#   - Increment approved, skipped, or rejected
+# When an agent earns a level change:
+#   - Update current_level
+#   - Add entry to level_changes

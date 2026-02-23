@@ -1,0 +1,69 @@
+{
+  "_template_version": "1.0",
+  "_description": "Audience profile produced by MOS-Researcher. Consumed by MOS-Strategist when building creative briefs. Every field should be based on research, not assumption.",
+  "_instructions": "Replace all [FILL IN] values. Save as audience-profile-[SEGMENT-NAME]-[DATE].json",
+
+  "profile_id": "AUD-[YYYYMMDD]-[001]",
+  "created_by": "MOS-Researcher",
+  "created_date": "[YYYY-MM-DD]",
+  "subject": "[FILL IN: Brief description of the audience segment, e.g., 'Marketing Directors at B2B SaaS companies, $10M-$50M ARR']",
+
+  "demographics": {
+    "title_range": ["[FILL IN: e.g., 'Marketing Director', 'VP Marketing', 'CMO']"],
+    "company_size": "[FILL IN: e.g., '50-500 employees' or '$10M-$50M ARR']",
+    "industry": "[FILL IN: e.g., 'B2B SaaS', 'ecommerce', 'professional services']",
+    "geography": "[FILL IN: e.g., 'US + Canada' or 'Global']",
+    "other_filters": "[FILL IN: any other demographic notes, or null]"
+  },
+
+  "psychographics": {
+    "primary_pain": "[FILL IN: The #1 problem keeping them up at night — specific, not generic]",
+    "secondary_pain": "[FILL IN: Second most important problem]",
+    "aspirations": "[FILL IN: What does success look like for them professionally?]",
+    "frustrations": [
+      "[FILL IN: Specific frustration from research]",
+      "[FILL IN: Another specific frustration]",
+      "[FILL IN: Another specific frustration]"
+    ],
+    "how_they_measure_success": "[FILL IN: What KPIs or metrics do they use to evaluate their own performance?]"
+  },
+
+  "voice_of_customer": {
+    "actual_phrases": [
+      "[FILL IN: Exact quote from a customer, review, or Reddit thread — use quotation marks and cite source]",
+      "[FILL IN: Another exact quote]",
+      "[FILL IN: Another exact quote]"
+    ],
+    "sources": [
+      "[FILL IN: Where these quotes came from — e.g., 'G2 review, 2025', 'Reddit r/marketing thread']"
+    ]
+  },
+
+  "content_behavior": {
+    "where_they_learn": ["[FILL IN: e.g., 'LinkedIn', 'industry newsletters', 'podcasts', 'conferences']"],
+    "trusted_formats": ["[FILL IN: e.g., 'case studies with numbers', 'short videos', 'peer recommendations']"],
+    "what_they_skip": ["[FILL IN: e.g., 'long white papers', 'generic blog posts', 'cold emails without context']"],
+    "decision_triggers": "[FILL IN: What pushes them to finally act? e.g., 'budget cycle', 'losing a deal', 'new leadership']"
+  },
+
+  "competitive_landscape": {
+    "alternatives_they_use": ["[FILL IN: Tools or approaches they currently use to solve this problem]"],
+    "competitor_weaknesses": ["[FILL IN: What do they complain about regarding current solutions?]"],
+    "our_positioning_gap": "[FILL IN: Where is there an unmet need we can own?]",
+    "switching_barriers": "[FILL IN: What makes it hard for them to switch from current solution?]"
+  },
+
+  "research_methodology": {
+    "sources_consulted": [
+      "[FILL IN: e.g., 'Web search — 12 sources', 'G2 reviews — 25 reviews', 'Reddit r/marketing — 8 threads']"
+    ],
+    "data_points_collected": "[FILL IN: Total number]",
+    "research_gaps": "[FILL IN: What we still don't know that would improve this profile]"
+  },
+
+  "confidence": "[FILL IN: high | medium | low]",
+  "confidence_reasoning": "[FILL IN: Why this confidence level? E.g., 'High: synthesized 60+ sources including 30 direct customer reviews']",
+  "recommended_next_steps": [
+    "[FILL IN: Specific action the Strategist should take based on this research]"
+  ]
+}

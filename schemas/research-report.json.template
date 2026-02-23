@@ -1,0 +1,78 @@
+{
+  "_template_version": "1.0",
+  "_description": "Research report produced by MOS-Researcher. Consumed by MOS-Strategist. Used for competitor analysis, market sizing, and trend scanning. Distinct from audience-profile — this covers markets and competitors, not the target audience.",
+  "_instructions": "Replace all [FILL IN] values. Save as research-report-[TOPIC]-[DATE].json",
+
+  "report_id": "RES-[YYYYMMDD]-[001]",
+  "created_by": "MOS-Researcher",
+  "created_date": "[YYYY-MM-DD]",
+  "report_type": "[FILL IN: competitor_analysis | market_sizing | trend_scan | channel_analysis]",
+  "subject": "[FILL IN: What was researched — e.g., 'Top 5 SEO agency competitors' or 'LinkedIn ad market for B2B SaaS']",
+
+  "research_question": "[FILL IN: The single question this report answers — e.g., 'What are our top 3 competitors doing differently in their LinkedIn content?']",
+
+  "key_findings": [
+    {
+      "finding": "[FILL IN: Finding #1 — specific and citable]",
+      "confidence": "[high | medium | low]",
+      "source": "[FILL IN: Specific source — URL, review site, competitor page]",
+      "strategic_implication": "[FILL IN: What should we do with this? 'This means we should...' not 'This is interesting']"
+    },
+    {
+      "finding": "[FILL IN: Finding #2]",
+      "confidence": "[high | medium | low]",
+      "source": "[FILL IN]",
+      "strategic_implication": "[FILL IN]"
+    },
+    {
+      "finding": "[FILL IN: Finding #3 — max 5 total findings, force-rank]",
+      "confidence": "[high | medium | low]",
+      "source": "[FILL IN]",
+      "strategic_implication": "[FILL IN]"
+    }
+  ],
+
+  "competitor_map": [
+    {
+      "name": "[FILL IN: Competitor name]",
+      "url": "[FILL IN: Website]",
+      "strengths": ["[FILL IN: What they do well — be specific and fair]"],
+      "weaknesses": ["[FILL IN: Where they fall short — based on reviews/data, not opinion]"],
+      "pricing": "[FILL IN: Known pricing or 'unknown']",
+      "positioning": "[FILL IN: How they position themselves in 1 sentence]",
+      "key_differentiator": "[FILL IN: The one thing that makes them stand out]",
+      "source": "[FILL IN: How you gathered this data — their website, G2 reviews, etc.]"
+    }
+  ],
+
+  "market_context": {
+    "market_size": "[FILL IN: Known market size if relevant, or null]",
+    "growth_rate": "[FILL IN: Known growth rate if relevant, or null]",
+    "key_trends": [
+      "[FILL IN: Trend affecting this market]",
+      "[FILL IN: Another trend]"
+    ],
+    "regulatory_notes": "[FILL IN: Any compliance or regulatory factors, or null]"
+  },
+
+  "recommended_angles": [
+    "[FILL IN: Specific campaign or messaging angle this research suggests we test]",
+    "[FILL IN: Another angle]"
+  ],
+
+  "watch_list": [
+    "[FILL IN: Competitor or trend to monitor — include why and how often to check]"
+  ],
+
+  "research_methodology": {
+    "sources_consulted": [
+      "[FILL IN: e.g., 'Competitor websites — 5 sites', 'G2 competitor reviews — 40 reviews', 'Web search — 15 articles']"
+    ],
+    "data_points_collected": "[FILL IN: Total number]",
+    "data_cutoff_date": "[FILL IN: When was the most recent data collected?]",
+    "known_gaps": "[FILL IN: What we couldn't find that would have improved this report]"
+  },
+
+  "confidence": "[FILL IN: high | medium | low — overall report confidence]",
+  "confidence_reasoning": "[FILL IN: Why this confidence level?]"
+}
