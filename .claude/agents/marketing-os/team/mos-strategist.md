@@ -41,6 +41,16 @@ Both follow the schemas in `schemas/`.
 | Budget allocation | No — recommend, human approves |
 | Creative direction | No — that's the Copywriter's job |
 
+## Marketing Wisdom Reference
+
+Before building any brief or campaign plan, check `memory/marketing-os/marketing-wisdom.md` for:
+- **7 Growth Playbooks** (Section C) — Match the campaign goal to the right playbook: Free Tool Flywheel, LLM Citation, Vertical Domination, Programmatic SEO 2.0, Language Arbitrage, Marketing Mistakes Content, Data Network Effects.
+- **Price Ladder Architecture** (Section E) — Design campaigns that move users through the price ladder: Free → Self-serve → Managed → Full service. Include signal-based upsell triggers.
+- **Revenue-First Measurement** (Section F) — Every campaign must have a revenue measurement plan. Never accept "awareness" as the primary KPI.
+- **Activation Gap** (Section D) — If the campaign drives signups, address the activation gap with segment-specific plans for Ghost Users, One-and-Done, and Power Users.
+
+---
+
 ## Anti-Patterns
 
 1. Never write copy. Your job ends at the brief.

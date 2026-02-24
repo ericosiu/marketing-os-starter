@@ -37,17 +37,61 @@ Ask if not provided:
 
 ---
 
-## Headline Formulas
+## Proven Hook Formulas
 
-Use these as starting points, then make them specific:
+Before writing any headline, check `memory/marketing-os/marketing-wisdom.md` for the full framework. Use one of these 6 patterns:
 
+**1. Observation + Stat + Contrast + Promise**
+> "I've been watching [trend]. [Specific stat]. [What most people think vs. what's true]. Here's [what to do]."
+
+**2. Personal Limitation + Achievement**
+> "I can't [thing]. But this week I [impressive achievement despite the limitation]."
+
+**3. Social Proof Opening**
+> "I [was with] [specific number] [impressive group]. [Surprising finding]."
+
+**4. Contrarian Challenge**
+> "Everyone says [common wisdom]. That's surface-level. What actually matters is [insight]."
+
+**5. Simple Declarative**
+> "[Bold, clear statement that frames the entire piece]."
+
+**6. Harsh Reality**
+> "Harsh reality: [uncomfortable truth most people avoid]."
+
+Also useful for subheadlines:
 - **[Achieve outcome] without [pain point]** — "Get enterprise-level SEO without an agency retainer"
-- **Never [unpleasant event] again** — "Never miss a lead because you were too slow to follow up"
-- **[Key benefit] for [target audience]** — "Marketing automation for B2B agencies"
-- **Stop [pain]. Start [pleasure].** — "Stop guessing. Start knowing exactly what's working."
 - **Turn [input] into [outcome]** — "Turn your blog into a lead generation machine"
 - **[Number] [people] use [product] to [outcome]** — "3,200 agencies use this to save 10 hours a week"
-- **The [opposite of usual] way to [achieve outcome]** — "The low-cost way to triple your close rate"
+
+---
+
+## Authority Through Specificity
+
+Vague claims destroy credibility. Specific numbers create it.
+
+- **Weak**: "Many companies have seen results"
+- **Strong**: "70% of the 40 founders we surveyed are already using this"
+
+Types of numbers that build authority:
+- Revenue thresholds: "$13M+", "9-figure"
+- Exact stats: "95%", "3.2x", "in the last 10 months"
+- Time frames: "this week", "in 48 hours"
+- Group sizes: "40 founders", "3,200 agencies"
+
+If you don't have a specific number, flag it — don't substitute vague language.
+
+---
+
+## BOFU Copy Principles
+
+When writing for decision-stage pages (comparisons, pricing, vs pages, buyer's guides):
+
+1. **Lead with differentiators, not features.** The reader is comparing — tell them WHY you, not WHAT you do.
+2. **Address objections inline.** Don't save them for FAQ. Handle them where they naturally arise.
+3. **Pricing transparency wins.** People searching pricing are closest to buying.
+4. **Social proof > claims.** "[Client] grew 340% in 6 months" beats "We're the best."
+5. **CTA matches intent.** BOFU visitors don't want to "learn more." They want to "get a proposal" or "see pricing."
 
 ---
 

@@ -190,6 +190,23 @@ Full expansion guide: `.claude/docs/how-to-grow.md`
 
 ---
 
+## Marketing Frameworks Included
+
+Every skill and agent is built on battle-tested marketing frameworks — not generic prompts.
+
+| Framework | What It Does | Used By |
+|-----------|-------------|---------|
+| **6 Proven Hook Formulas** | Tested content hooks that stop the scroll — Observation+Stat, Contrarian Challenge, Harsh Reality, and more | Copywriter, Social Content |
+| **BOFU Domination Framework** | Optimize for revenue, not traffic. 6 content categories that convert 10-50x better than top-of-funnel. | Researcher, Strategist |
+| **7 Exponential Growth Playbooks** | Free Tool Flywheel, LLM Citation Strategy, Vertical Domination, Programmatic SEO 2.0, Language Arbitrage, Marketing Mistakes Content, Data Network Effects | Strategist, Campaign Brief |
+| **Activation & Retention Science** | 5-move activation playbook + 3 user segments (Ghost Users, One-and-Done, Power Users) with specific interventions for each | Email Sequence, Campaign Brief |
+| **Price Ladder Architecture** | Strategic price escalation with signal-based upsell triggers | Email Sequence, Strategist |
+| **Revenue-First Measurement** | Every campaign measured against revenue outcomes, not vanity metrics | Campaign Brief, Strategist |
+
+All frameworks live in `memory/marketing-os/marketing-wisdom.md` — the master reference file every agent consults.
+
+---
+
 ## How It's Different from Just Using Claude
 
 | Without Marketing OS | With Marketing OS |
@@ -200,6 +217,7 @@ Full expansion guide: `.claude/docs/how-to-grow.md`
 | Generic marketing language | Voice-enforced copy with banned word lists |
 | You manage the workflow | Orchestrator manages the pipeline |
 | One-shot outputs | Research → Strategy → Copy pipeline |
+| Generic marketing advice | Battle-tested frameworks baked into every skill |
 
 ---
 
@@ -222,9 +240,11 @@ This is a multi-agent system with structured handoffs, persistent memory, and pr
 
 ---
 
-## Built By
+## Credits
 
 Created by [Eric Siu](https://twitter.com/ericosiu), CEO of [Single Grain](https://www.singlegrain.com) — a marketing agency that uses Claude Code to run 5-7 parallel AI sessions daily.
+
+Individual skill patterns inspired by [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills). Marketing OS adds the agent layer, persistent memory, proactive routing, structured schema handoffs, and proprietary marketing frameworks.
 
 If you find this useful, give it a star and share it with someone running a marketing team.
 

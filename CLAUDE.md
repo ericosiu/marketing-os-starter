@@ -123,6 +123,7 @@ The agents read and write these files to maintain context across sessions:
 - `memory/marketing-os/brand-voice.md` — Voice markers, anti-patterns, examples
 - `memory/marketing-os/campaign-history.md` — What campaigns ran, what worked
 - `memory/marketing-os/working.md` — Current task queue and status
+- `memory/marketing-os/marketing-wisdom.md` — Proven frameworks: hook formulas, BOFU strategy, growth playbooks, activation science
 
 ---
 

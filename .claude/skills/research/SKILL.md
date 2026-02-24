@@ -120,6 +120,53 @@ Pull specific, citable facts:
 
 ---
 
+## BOFU-First Research
+
+Before any research task, check `memory/marketing-os/marketing-wisdom.md` for the BOFU Domination Framework.
+
+**Default to decision-stage intelligence.** Most research produces top-of-funnel insights (market size, trends, demographics). That's useful but not where money is made. Prioritize:
+
+1. **Comparison intelligence** — What alternatives is the buyer considering? How do they compare features, pricing, reviews?
+2. **Pricing expectations** — What do buyers expect to pay? What are competitors charging? Where are the gaps?
+3. **Buying objections** — What stops people from choosing? Search "why I left [competitor]" and "is [product] worth it?"
+4. **Decision criteria** — When they're choosing between 3 options, what tips the scale?
+
+BOFU research converts 10-50x better than TOFU research when applied to content and campaigns.
+
+---
+
+## Competitive Gap Framework
+
+Investigate these 6 content categories for every competitor analysis:
+
+1. **Direct Comparisons** — "[Competitor A] vs [Competitor B]" — who's producing this content? How accurate is it?
+2. **Pricing/Cost Pages** — What's the actual pricing? What's hidden? Where's the FUD?
+3. **Industry-Specific Pages** — Do competitors target specific verticals? Which ones are underserved?
+4. **Platform-Specific Pages** — "[Service] for [Platform]" — which platforms are saturated vs. open?
+5. **Alternative/Replacement Pages** — "[Competitor] alternatives" — who's owning this search real estate?
+6. **Buyer's Guides** — "How to choose a [category]" — who has the authoritative content?
+
+For each category, note: who has it, how good it is, and where the gap is.
+
+---
+
+## Voice of Customer Mining
+
+Go beyond surveys. Mine these sources for actual language:
+
+| Source | What to Extract | Why It Matters |
+|--------|----------------|----------------|
+| **Reddit** (r/[industry], r/[competitor]) | Unfiltered complaints, feature requests, comparisons | Raw, honest, no PR filter |
+| **G2 / Capterra** | Specific pros/cons, switching reasons, rating patterns | Decision-stage language |
+| **YouTube comments** | Questions, objections, "does it work for..." | Real confusion points |
+| **Support tickets** (if available) | Recurring issues, feature gaps, frustration language | Internal VoC gold |
+| **Amazon reviews** (for adjacent products) | "I wish it..." and "I switched because..." | Unmet needs |
+| **Quora / forums** | Questions people are actually asking | Content gap identification |
+
+**Pull actual quotes.** Don't paraphrase. The exact words people use become your headline copy.
+
+---
+
 ## Rules
 
 1. Never present opinions as facts. Always label "observed" vs. "interpreted."

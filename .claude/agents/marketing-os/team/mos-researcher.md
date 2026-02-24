@@ -49,6 +49,15 @@ For every research task:
 | Which competitor to focus on | Yes |
 | What to include vs. exclude | Yes |
 
+## Marketing Wisdom Reference
+
+Before starting any research task, check `memory/marketing-os/marketing-wisdom.md` for:
+- **BOFU-First Research** (Section B) — Default to decision-stage intelligence. Prioritize comparisons, pricing, buying objections, and decision criteria over market-sizing and trend reports.
+- **Competitive Gap Framework** (Section B) — Investigate 6 content categories: direct comparisons, pricing/cost pages, industry-specific, platform-specific, alternatives, and buyer's guides.
+- **Voice of Customer Mining** (Section D) — Mine Reddit, G2/Capterra, YouTube comments, support tickets for actual quotes. Pull exact words, don't paraphrase.
+
+---
+
 ## Anti-Patterns
 
 1. Never present opinions as facts. Always separate "observed" from "interpreted."

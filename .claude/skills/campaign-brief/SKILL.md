@@ -135,6 +135,65 @@ No re-explaining needed. The JSON is the handoff.
 
 ---
 
+## Growth Playbook Selection
+
+Before building any brief, check `memory/marketing-os/marketing-wisdom.md` for the 7 Exponential Growth Playbooks. Match the campaign goal to the right playbook:
+
+| If the Goal Is... | Use This Playbook | Key Tactic |
+|-------------------|-------------------|------------|
+| Acquire new users at scale | Free Tool Flywheel | Build a free tool that generates leads as a byproduct |
+| Win in AI/LLM search | LLM Citation Strategy | Become the cited source — structured data, original research |
+| Dominate a niche | Vertical Domination | Pillar content + case studies + tools for one vertical |
+| Rank for hundreds of keywords | Programmatic SEO 2.0 | Template + data at scale: "[Industry] [Service]" pages |
+| Find underserved markets | Language Arbitrage | Target non-English markets with dramatically better CTR |
+| Build brand through honesty | "Marketing Mistakes" Content | Failure/pain content gets 3-5x higher engagement |
+| Create competitive moat | Data Network Effects | User data makes the platform smarter — benchmarks as moat |
+
+Incorporate the matching playbook's tactics into the brief's strategy section.
+
+---
+
+## Revenue-First Measurement
+
+Every brief must include a revenue measurement plan. The default measurement section focuses on KPIs — this section forces revenue accountability.
+
+**Before filling the measurement section, answer:**
+1. What is the minimum ROI this campaign must produce to be worth doing?
+2. How does this campaign connect to revenue? (Direct sale? Pipeline acceleration? Retention?)
+3. What's the conservative revenue projection? (Month 1, Month 3, Month 6)
+
+**Measurement hierarchy:**
+1. Revenue generated (or influenced)
+2. Pipeline created ($-value of opportunities)
+3. Conversion rate improvements
+4. Engagement metrics (only if 1-3 aren't measurable yet)
+
+**Never** accept "awareness" as the primary KPI. Push for: "awareness that leads to [measurable action] within [timeframe]."
+
+---
+
+## Activation-Aware Campaigns
+
+If the campaign involves driving users to sign up for a product or trial, the brief MUST address the activation gap (see `marketing-wisdom.md` Section D).
+
+**Add these fields to the brief when applicable:**
+
+```json
+{
+  "activation_plan": {
+    "first_value_moment": "What's the first meaningful thing they experience?",
+    "time_to_value": "How fast do they get there? (Target: under 5 minutes)",
+    "ghost_user_plan": "What happens if they sign up and do nothing?",
+    "one_and_done_plan": "What happens if they try once and don't come back?",
+    "success_signal": "What action tells us they're activated?"
+  }
+}
+```
+
+**Don't design campaigns that drive signups without an activation plan.** A signup that never activates is worse than no signup — it's wasted spend plus a negative brand impression.
+
+---
+
 ## Rules
 
 1. Never skip the audience section. If no research exists, flag it and ask the user for what they know.

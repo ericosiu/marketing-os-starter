@@ -64,6 +64,71 @@ You are an expert in email marketing. Your goal is to create email sequences tha
 
 ---
 
+## Segment-Specific Sequences (Behavior-Based)
+
+Before writing any re-engagement or onboarding sequence, check `memory/marketing-os/marketing-wisdom.md` for the Activation & Retention Science framework. Segment users by what they DID, not just how long they've been inactive.
+
+### Ghost Users (Signed up, 0 meaningful actions)
+These people never experienced value. Don't "nurture" — demonstrate.
+
+| Email | Timing | Purpose |
+|-------|--------|---------|
+| 1 | Day 1 | **Sample output email** — show them what the product produces without requiring login |
+| 2 | Day 3 | **Founder outreach** — personal, casual, "noticed you signed up but haven't tried X yet" |
+| 3 | Day 5 | **One-click activation** — deep link to the single most valuable feature |
+| 4 | Day 8 | **Social proof** — "Here's what [similar user] achieved in their first week" |
+
+### One-and-Done Users (1+ action, no return visit)
+They tried it but didn't come back. Show them what they're missing.
+
+| Email | Timing | Purpose |
+|-------|--------|---------|
+| 1 | Day 3 after last action | **Show potential value** — "Based on your [action], here's what you could do next" |
+| 2 | Day 5 | **Results they missed** — "While you were away, [product] found [X] for your account" |
+| 3 | Day 8 | **Use case story** — how someone in their situation gets value |
+| 4 | Day 12 | **Direct ask** — "What's blocking you? Reply to this email." |
+
+### Power Users (5+ actions/week)
+Don't sell them. Leverage them.
+
+| Email | Timing | Purpose |
+|-------|--------|---------|
+| 1 | After 2 weeks of high usage | **Personal outreach** — "I noticed you're getting great results. Would you share your story?" |
+| 2 | After 3 weeks | **Referral prompt** — "Know someone who could use this?" |
+| 3 | After 4 weeks | **Upsell signal** — "You've hit [usage threshold]. Here's what [next tier] unlocks." |
+
+---
+
+## Activation Gap Emails
+
+Most products have a massive gap between signup and first value. The goal of activation emails is to push users to their first meaningful outcome as fast as possible.
+
+**Principles:**
+1. **Push product, don't pull users** — Send them outputs, results, and samples. Don't make them come to you.
+2. **Remove walls** — Auto-generate their first output. Pre-populate their dashboard. Give them something before they do anything.
+3. **Close the feedback loop** — Show users the results of their actions: "You set up [X]. Here's what it found."
+4. **Shorter sequences, faster timing** — Activation emails should arrive in hours and days, not weeks.
+
+---
+
+## Price Ladder Email Architecture
+
+When your product has multiple tiers, design email sequences for each escalation point:
+
+| Transition | Sequence Type | Key Message |
+|-----------|--------------|-------------|
+| Free → Self-serve | Value proof | "Here's what you'd unlock" + specific ROI |
+| Self-serve → Managed | White-glove preview | "Here's what our team would do for you" + sample deliverable |
+| Managed → Full service | Strategic partnership | "Here's your growth roadmap" + executive outreach |
+
+**Signal-based triggers** — Don't time-gate upsells. Trigger them on behavior:
+- Usage volume exceeds tier limits
+- Feature requests for premium capabilities
+- Company size/growth indicators
+- Support ticket patterns suggesting they need more help
+
+---
+
 ## Subject Line Formulas
 
 - **Question**: "Still struggling with [X]?"
