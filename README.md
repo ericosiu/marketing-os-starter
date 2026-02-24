@@ -70,6 +70,8 @@ Every post ends with a specific engagement closer. Every claim has a number. Eve
 
 **Full examples in [`examples/`](examples/)** — browse them to see exactly what the system outputs.
 
+**See the difference**: [`before-after.md`](examples/before-after.md) shows the same prompt with and without Marketing OS. Generic Claude produces "Excited to share our analytics platform..." Marketing OS produces "Harsh reality: your marketing attribution is lying to you."
+
 ---
 
 ## The Frameworks Inside
@@ -193,6 +195,8 @@ Fill in `brands/your-agency/voice.md`:
 - Tone and voice markers
 - Words to always/never use
 - 2-3 copy examples that nail your voice
+
+**Want to test it first?** Skip this step and use the pre-built example brand. `brands/example-agency/` has a complete fictional agency (GrowthLab) with filled-in voice, brand identity, and a client (DataPulse) with campaign history. Run a campaign for DataPulse to see the full pipeline in action before setting up your own brand.
 
 ### Step 4: Add your first client (5 min)
 
