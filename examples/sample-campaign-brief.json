@@ -1,0 +1,111 @@
+{
+  "_note": "This is an example of what MOS-Strategist produces after consuming the audience profile. Uses Growth Playbook #6 (Marketing Mistakes Content) and Revenue-First Measurement.",
+
+  "brief_id": "BRIEF-20260215-001",
+  "status": "ready_for_review",
+  "created_by": "MOS-Strategist",
+  "created_date": "2026-02-15",
+  "approved_by": null,
+  "approved_date": null,
+
+  "campaign_context": {
+    "name": "Attribution Reality Check",
+    "goal": "Generate 30 demo requests from marketing directors at B2B SaaS companies in 45 days",
+    "deadline": "2026-04-01",
+    "budget": "$5,000 (organic + $2K LinkedIn ad boost)",
+    "channels": ["linkedin_organic", "linkedin_ads", "email_nurture"],
+    "campaign_duration": "45 days",
+    "growth_playbook": "Playbook 6: Marketing Mistakes Content — failure/pain content gets 3-5x higher engagement. This audience has been burned by analytics tools before."
+  },
+
+  "audience": {
+    "primary_segment": "Marketing Directors at B2B SaaS companies, $5M-$30M ARR",
+    "audience_profile_id": "AUD-20260215-001",
+    "pain_point": "Can't connect marketing spend to revenue — CFO thinks marketing is a cost center",
+    "current_belief": "Attribution is impossible to get right. Every tool gives different numbers. Just pick one and hope.",
+    "desired_belief": "Revenue attribution is solvable without an engineering team. The right tool makes you the smartest person in the leadership meeting.",
+    "objections": [
+      "We tried attribution tools before and they didn't work — why is this different?",
+      "Our tech stack is too messy for any tool to track properly",
+      "My engineering team won't implement another tracking system"
+    ],
+    "voice_of_customer": [
+      "I spend more time building reports than reading them",
+      "My CEO thinks marketing is a cost center because I can't prove otherwise",
+      "We tried 3 attribution tools and they all showed different numbers"
+    ]
+  },
+
+  "messaging": {
+    "core_promise": "Know exactly which campaigns drive revenue — without begging engineering for help.",
+    "key_differentiator": "Works across your entire stack in 15 minutes, not 15 weeks. No engineering required.",
+    "proof_points": [
+      "Acme SaaS cut reporting time from 12 hours/week to 45 minutes and identified $340K in wasted ad spend",
+      "Average customer proves ROI to their CFO within the first board meeting (30 days)",
+      "92% of users connect all channels within the first hour — no code required"
+    ],
+    "tone": "Direct, empathetic, slightly provocative. We understand the pain because we've seen it 100 times."
+  },
+
+  "deliverables": [
+    {
+      "type": "linkedin_post",
+      "quantity": 5,
+      "format": "Text post, 1200 chars max. Use Hook Formula #6 (Harsh Reality) for posts 1-2, Formula #4 (Contrarian Challenge) for posts 3-4, Formula #3 (Social Proof) for post 5.",
+      "cta": "Link to 'Attribution Reality Check' landing page",
+      "destination_url": "/attribution-reality-check",
+      "notes": "Each post should end with an engagement closer from marketing-wisdom.md"
+    },
+    {
+      "type": "email_sequence",
+      "quantity": 4,
+      "format": "4-email nurture sequence for demo request leads. Segment: One-and-Done pattern from marketing-wisdom.md. 150-200 words each.",
+      "cta": "Book a 15-Minute Demo",
+      "destination_url": "/demo",
+      "notes": "Use activation gap principles — push value, don't pull users. Email 1 should include a sample dashboard screenshot."
+    },
+    {
+      "type": "landing_page",
+      "quantity": 1,
+      "format": "Long-form landing page. Hero + social proof + 3 pain points + solution + case study + FAQ + CTA. Follow BOFU copy principles.",
+      "cta": "See Your Revenue Attribution in 15 Minutes",
+      "destination_url": "/attribution-reality-check",
+      "notes": "This is BOFU content — visitors are comparing solutions. Lead with differentiators, not features. Address objections inline."
+    }
+  ],
+
+  "constraints": {
+    "never_mention": [
+      "Don't trash GA4 directly — our audience uses it and we integrate with it",
+      "Don't claim 'perfect attribution' — no tool is perfect, and our audience is skeptical of overclaims",
+      "Don't use: streamline, leverage, game-changing, best-in-class"
+    ],
+    "required_elements": [
+      "Include '15 minutes' time-to-value claim in every piece",
+      "Link to live demo or sandbox, not just a form",
+      "Include at least one voice-of-customer quote per deliverable"
+    ],
+    "brand_voice_file": "brands/your-agency/voice.md",
+    "client_file": null
+  },
+
+  "measurement": {
+    "primary_kpi": "Demo requests",
+    "primary_kpi_target": "30 in 45 days",
+    "secondary_kpis": [
+      "LinkedIn post engagement rate (target: 3%+)",
+      "Email sequence click-through rate (target: 4%+)",
+      "Landing page conversion rate (target: 5%+)"
+    ],
+    "reporting_cadence": "Weekly",
+    "tracking_notes": "UTM: utm_campaign=attribution-reality-check, utm_source=linkedin/email. Track demo-to-opportunity conversion at 60 days."
+  },
+
+  "activation_plan": {
+    "first_value_moment": "See their own data visualized in the demo — not a generic demo, their actual channels",
+    "time_to_value": "15 minutes from signup to first connected dashboard",
+    "ghost_user_plan": "Auto-generate sample report using their website URL. Send via email within 1 hour of signup.",
+    "one_and_done_plan": "If they connect 1 channel but don't return: send 'Here's what we found' email with 3 insights from their data.",
+    "success_signal": "User connects 3+ channels and views their attribution dashboard"
+  }
+}
